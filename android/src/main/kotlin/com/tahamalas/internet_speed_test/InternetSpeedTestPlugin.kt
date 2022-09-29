@@ -15,7 +15,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 
 /** InternetSpeedTestPlugin */
 //internal var activity: Activity?, internal var methodChannel: MethodChannel, registrar: Registrar
-public class InternetSpeedTestPlugin(internal var activity: Activity?, internal var methodChannel: MethodChannel, registrar: Registrar) : MethodCallHandler {
+public class InternetSpeedTestPlugin(internal var activity: Activity!, internal var methodChannel: MethodChannel, registrar: Registrar) : MethodCallHandler {
 
 
     private var result: Result? = null
